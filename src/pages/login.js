@@ -46,7 +46,7 @@ const Login = () => {
         
         {error && <p className="text-red-500 text-sm text-center mb-4">{error}</p>}
         
-        <Button onClick={handleLogin} className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+        <Button onClick={handleLogin}>
           Login
         </Button>
       </div>
